@@ -125,7 +125,7 @@ figcaption{
 }
 
 #landing {
-  background-image: url(../images/sunFlower.jpg);
+  background-image: url(../images/IMG_3856.JPG);
   background-repeat: no-repeat;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -133,16 +133,16 @@ figcaption{
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /*justify-content: center;*/
   align-items: center;
   overflow: hidden;
 }
 
 #familyImage {
-  background-image: url(../images/forest.jpg);
+  background-image: url(../images/DSC01647.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -164,6 +164,7 @@ figcaption{
 #aboutImage{
     max-width: 20vw;
     border: 4px solid #67aed4;
+    border-radius: 25px;
 }
 
 #family {
@@ -177,7 +178,7 @@ figcaption{
 }
 
 #contactImage {
-  background-image: url(../images/sky.jpg);
+  background-image: url(../images/wedding.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -188,7 +189,7 @@ figcaption{
 }
 
 #footerImage {
-  background-image: url(../images/lake-lakeside-landscape.jpg);
+  background-image: url(../images/DSC01619.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -244,8 +245,13 @@ figcaption{
 }
 
 .logo {
+  margin-top: 10rem;
   font-size: 60px;
   color: #67aed4;
+  background-color: rgb(153, 153, 153, 0.7);
+  padding: 1rem;
+  border-radius: 8px;
+  
   }
 
 .center {
